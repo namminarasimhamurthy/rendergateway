@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Payment card */
+.payment-box {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.payment-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Amount text */
+.amount {
+    font-size: 22px;
+    color: #2a5298;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+/* Pay button */
+#pay-btn {
+    background: #2a5298;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Button hover */
+#pay-btn:hover {
+    background: #1e3c72;
+}
+
+/* Footer text */
+.secure-text {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #777;
+}

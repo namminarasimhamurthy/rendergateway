@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Success</title>
+</head>
+<body>
+
+<h2>✅ Payment Successful</h2>
+
+{% if payment_id %}
+    <p><strong>Payment ID:</strong> {{ payment_id }}</p>
+    <p><strong>Order ID:</strong> {{ order_id }}</p>
+{% else %}
+    <p>Payment completed, but no details received.</p>
+{% endif %}
+
+</body>
+</html>
